@@ -1,11 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Banner from "@/components/Home/Banner/Banner";
 
 export default function Home() {
   return (
     <div>
       <main>
-          <h4 className="text-4xl">Home page</h4>
+          <Banner></Banner>
       </main>
     </div>
   );
