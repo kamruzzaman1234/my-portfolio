@@ -25,10 +25,10 @@ const cinzel_decorative = Cinzel_Decorative({
 const Banner = ()=>{
     return(
         <div className="py-22 bg-black">
-            <div className="max-w-6xl w-full mx-auto">
+            <div className="max-w-6xl px-4 lg:px-0 w-full mx-auto">
                 <div>
-                    <div className="flex gap-3 items-center justify-center">
-                        <div className="max-w-1xl w-full mx-auto">
+                    <div className="flex flex-col lg:flex-row gap-3 items-center justify-center">
+                        <div className="max-w-1xl mb-6 w-full mx-auto">
                            <ul className="flex gap-3 items-center flex-row lg:flex-col justify-center">
                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="" className=" bg-slate-950">
@@ -75,7 +75,7 @@ const Banner = ()=>{
                             <div className="flex flex-col gap-8">
                                 <div className="h-[350px]">
                                     <img src="https://i.ibb.co.com/9mMM7P3q/476174455-1327727398451650-7534668584162578566-n.jpg" 
-                                     className="w-full h-full object-cover" alt="" />
+                                     className="w-full h-full object-cover rounded-bl-3xl rounded-tr-3xl" alt="" />
                                 </div>
                                 <div className="flex items-center gap-2 flex-col">
                                     <h2 className={`${cinzel_decorative.className} text-white text-2xl
