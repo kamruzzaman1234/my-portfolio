@@ -11,6 +11,12 @@ import { RiNextjsFill } from "react-icons/ri";
 import { RiFirebaseFill } from "react-icons/ri";
 import { IoLogoNodejs } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
+import { FaGitSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoFigma } from "react-icons/io5";
+import { VscVscode } from "react-icons/vsc";
+import { RiNpmjsLine } from "react-icons/ri";
+import { SiNotepadplusplus } from "react-icons/si";
 
 const cinzel_decorative = Cinzel_Decorative({
     subsets: ["latin"],
@@ -21,7 +27,7 @@ const cinzel_decorative = Cinzel_Decorative({
 const SkillTool = ()=>{
     return(
         <div className="">
-            <div className="max-w-5xl w-full mx-auto">
+            <div className="max-w-5xl px-10 lg:px-0 w-full mx-auto">
                 <div className="mb-10">
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-white`}>My Skill</h2>    
                 </div> 
@@ -29,7 +35,7 @@ const SkillTool = ()=>{
                     <div className="py-8 px-4 shadow-lg shadow-white">
                         <div>
                             <h3 className={`${cinzel_decorative.className} text-white
-                            font-semibold mb-6 text-center`}>Frontend Development</h3>
+                            font-semibold mb-6 text-2xl text-center`}>Frontend Development</h3>
                         </div>
                         <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
                             <div className="flex flex-col gap-2 items-center">
@@ -66,7 +72,7 @@ const SkillTool = ()=>{
                     <div className="py-8 px-4 shadow-lg shadow-white">
                         <div>
                             <h3 className={`${cinzel_decorative.className} text-white
-                            font-semibold mb-6 text-center`}>Backend Development</h3>
+                            font-semibold mb-6 text-2xl text-center`}>Backend Development</h3>
                         </div>
                         <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
                             <div className="flex flex-col gap-2 items-center">
@@ -90,7 +96,44 @@ const SkillTool = ()=>{
                             </div>
                         </div>
                     </div>
+
+                    <div className="py-8 px-4 shadow-lg shadow-white">
+                        <div>
+                            <h3 className={`${cinzel_decorative.className} text-white
+                            font-semibold mb-6 text-2xl text-center`}>Tools & Ecosystem</h3>
+                        </div>
+                        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="flex flex-col gap-2 items-center">
+                                <FaGitSquare className="text-white text-3xl"/>
+                                <h4 className={`${cinzel_decorative.className} text-white  font-semibold`}>Git</h4>
+                            </div>
+
+                            <div className="flex flex-col gap-2 items-center">
+                                <FaGithub className="text-white text-3xl"/>
+                                <h4 className={`${cinzel_decorative.className} text-white font-semibold`}>Express Js</h4>
+                            </div>
+                            
+                             <div className="flex flex-col gap-2 items-center">
+                                <IoLogoFigma className="text-white text-3xl"/>
+                                <h4 className={`${cinzel_decorative.className} text-white font-semibold`}>Figma</h4>
+                            </div>
+                         
+                             <div className="flex flex-col gap-2 items-center">
+                                <VscVscode className="text-white text-3xl"/>
+                                <h4 className={`${cinzel_decorative.className} text-white font-semibold`}>VS code</h4>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <RiNpmjsLine className="text-white text-3xl"/>
+                                <h4 className={`${cinzel_decorative.className} text-white font-semibold`}>npm</h4>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <SiNotepadplusplus className="text-white text-3xl"/>
+                                <h4 className={`${cinzel_decorative.className} text-white font-semibold`}>npm</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     )
