@@ -18,7 +18,7 @@ const poppins = Poppins({
 const AboutService = ()=>{
     return(
         <div className="pt-20">
-            <div className="max-w-7xl w-full mx-auto">
+            <div className="max-w-7xl px-10 lg:px-0 w-full mx-auto">
                 <div className="mb-10">
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-center`}>My Quality Services</h2>    
                 </div> 

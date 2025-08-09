@@ -19,7 +19,7 @@ const Navbar = ()=>{
     }
 
     return(
-        <div className="py-8 lg:py-4 bg-slate-950 fixed top-0 w-full">
+        <div className="py-8 lg:py-4 bg-slate-900 fixed top-0 w-full">
                 <div className="max-w-6xl px-4 lg:px-0 w-full mx-auto">
                     <div className="max-w-3xl lg:hidden w-full mx-auto relative lg:static">
                         {open ? <>
@@ -30,7 +30,7 @@ const Navbar = ()=>{
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>About</Link></li>
                             <li><Link href="/about" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Skill</Link></li>
-                            <li><Link href="" className={`${cinzel_decorative.className}
+                            <li><Link href="/skill" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Project</Link></li>
                             <li><Link href="" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Social Work</Link></li>
@@ -52,7 +52,7 @@ const Navbar = ()=>{
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Home</Link></li>
                             <li><Link href="/about" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>About</Link></li>
-                            <li><Link href="" className={`${cinzel_decorative.className}
+                            <li><Link href="/skill" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Skill</Link></li>
                             <li><Link href="" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Project</Link></li>

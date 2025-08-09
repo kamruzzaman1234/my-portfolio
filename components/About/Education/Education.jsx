@@ -12,7 +12,7 @@ const cinzel_decorative = Cinzel_Decorative({
 const Education = ()=>{
     return(
         <div className="pt-20">
-            <div className="max-w-5xl w-full mx-auto">
+            <div className="max-w-5xl px-10 lg:px-0 w-full mx-auto">
                  <div className="mb-10">
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-center`}>My Education</h2>    
                 </div> 

@@ -31,19 +31,19 @@ const Banner = ()=>{
                         <div className="max-w-1xl mb-6 w-full mx-auto">
                            <ul className="flex gap-3 items-center flex-row lg:flex-col justify-center">
                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
-                                <Link href="" className=" bg-slate-950">
+                                <Link href="/" className=" bg-slate-950">
                                  <FaHome className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
                                  <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
-                                <Link href="" className=" bg-slate-950">
+                                <Link href="/about" className=" bg-slate-950">
                                  <IoManSharp className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
                                  <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
-                                <Link href="" className=" bg-slate-950">
+                                <Link href="/skill" className=" bg-slate-950">
                                  <GiSkills className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>

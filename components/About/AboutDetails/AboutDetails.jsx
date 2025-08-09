@@ -30,7 +30,7 @@ const poppins = Poppins({
 
 const AboutDetails = ()=>{
     return(
-        <div className="max-w-5xl w-full mx-auto">
+        <div className="max-w-5xl px-10 lg:px-0 w-full mx-auto">
             <div className="flex flex-col gap-8 lg:gap-10 lg:flex-row justify-between">
                 <div className="w-full lg:w-1/2">
                     <div className="">
