@@ -17,8 +17,8 @@ const poppins = Poppins({
 
 const AboutService = ()=>{
     return(
-        <div className="py-20">
-            <div className="max-w-5xl w-full mx-auto">
+        <div className="pt-20">
+            <div className="max-w-7xl w-full mx-auto">
                 <div className="mb-10">
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-center`}>My Quality Services</h2>    
                 </div> 
@@ -31,7 +31,7 @@ const AboutService = ()=>{
                         </div>
                         <div>
                             <h3 className={`${cinzel_decorative.className} text-3xl
-                            font-semibold text-black mb-4`}>Web design</h3>
+                            font-semibold text-black mb-4`}>MERN stack</h3>
                             <ul className="space-y-3" >
                                 <li className={`${cinzel_decorative.className}
                                 text-sm text-black font-bold`}>*Project Completed</li>
@@ -49,7 +49,7 @@ const AboutService = ()=>{
                         </div>
                         <div>
                             <h3 className={`${cinzel_decorative.className} text-3xl
-                            font-semibold text-black mb-4`}>Web design</h3>
+                            font-semibold text-black mb-4`}>other services</h3>
                             <ul className="space-y-3" >
                                 <li className={`${cinzel_decorative.className}
                                 text-sm text-black font-bold`}>*Project Completed</li>
