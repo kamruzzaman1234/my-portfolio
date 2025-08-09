@@ -40,9 +40,9 @@ const AboutDetails = ()=>{
                 </div>
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col gap-6">
-                        <div>
+                        <div className="">
                             <h2 className={`${cinzel_decorative.className} text-3xl
-                            uppercase  font-bold mb-6`}>md kamruzzaman (<span className="text-sm">
+                            uppercase  font-bold mb-8`}>md kamruzzaman (<span className="text-sm">
                                  <TypeAnimation
                                       sequence={[
                                 
@@ -61,7 +61,7 @@ const AboutDetails = ()=>{
                                         repeat={Infinity}
                                     /> 
                             </span>) </h2>
-                            <p className={`${poppins.className} text-lg text-slate-500 font-normal `}>I am Kamruzzaman, a passionate Frontend Developer with a strong foundation
+                            <p className={`${poppins.className} text-[16px] text-slate-500 font-normal `}>I am Kamruzzaman, a passionate Frontend Developer with a strong foundation
                              in React.js, Next.js, Tailwind CSS, and the MERN stack. I have completed 
                              a Diploma in Computer Science from Dinajpur Polytechnic Institute and am
                               currently pursuing a BSc in CSE at Daffodil International University. 
@@ -113,11 +113,11 @@ const AboutDetails = ()=>{
      
                         </ul>
                         </div>
-                        <div>
+                        <div className="mt-4">
                                                <a
                                           href="/update_resume.pdf"
                                           download="Kamruzzaman_CV.pdf"  
-                                          className="inline-flex items-center gap-2 px-4 py-2 rounded-md shadow-md
+                                          className="inline-flex items-center gap-2  px-4 py-2 rounded-md shadow-md
                                                      bg-yellow-600 text-white font-semibold transition-transform
                                                      transform hover:-translate-y-1 active:translate-y-0"
                                           aria-label="Download CV"
