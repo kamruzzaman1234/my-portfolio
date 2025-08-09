@@ -24,7 +24,7 @@ const cinzel_decorative = Cinzel_Decorative({
 
 const Banner = ()=>{
     return(
-        <div className="py-22 bg-black">
+        <div className="py-32 bg-black">
             <div className="max-w-6xl px-4 lg:px-0 w-full mx-auto">
                 <div>
                     <div className="flex flex-col lg:flex-row gap-3 items-center justify-center">
@@ -97,7 +97,7 @@ const Banner = ()=>{
                                          speed={50}
                                         style={{ fontSize: '20px', color:'yellow', display: 'inline-block' }}
                                         repeat={Infinity}
-    />    
+                                    />    
                                     </span> </h4>
 
                                     <a
