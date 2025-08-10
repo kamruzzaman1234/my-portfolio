@@ -24,18 +24,18 @@ const Navbar = ()=>{
                     <div className="max-w-3xl lg:hidden w-full mx-auto relative lg:static">
                         {open ? <>
                             <ul className="flex justify-between flex-col lg:flex-row">
-                            <li className=""><Link href="" className={`${cinzel_decorative.className}
+                            <li className="/"><Link href="" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Home</Link></li>
-                            <li><Link href="/" className={`${cinzel_decorative.className}
-                            text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>About</Link></li>
                             <li><Link href="/about" className={`${cinzel_decorative.className}
-                            text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Skill</Link></li>
+                            text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>About</Link></li>
                             <li><Link href="/skill" className={`${cinzel_decorative.className}
-                            text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Project</Link></li>
+                            text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Skill</Link></li>
                             <li><Link href="/project" className={`${cinzel_decorative.className}
+                            text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Project</Link></li>
+                            <li><Link href="/social" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Social Work</Link></li>
                             
-                            <li><Link href="" className={`${cinzel_decorative.className}
+                            <li><Link href="/contact" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Contact</Link></li>  
                         </ul>
                         </> : <></>}
@@ -56,9 +56,9 @@ const Navbar = ()=>{
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Skill</Link></li>
                             <li><Link href="/project" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Project</Link></li>
-                            <li><Link href="" className={`${cinzel_decorative.className}
+                            <li><Link href="/social" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Social Work</Link></li>
-                            <li><Link href="" className={`${cinzel_decorative.className}
+                            <li><Link href="/contact" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Contact</Link></li>  
                         </ul>
 
