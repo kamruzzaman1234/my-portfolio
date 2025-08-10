@@ -41,9 +41,9 @@ const AboutDetails = ()=>{
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col gap-6">
                         <div className="">
-                            <h2 className={`${cinzel_decorative.className} text-3xl
+                            <h2 className={`${cinzel_decorative.className} text-2xl
                             uppercase  font-bold mb-8`}>md kamruzzaman (<span className="text-sm">
-                                 <TypeAnimation
+                                 <TypeAnimation className="text-cyan-600"
                                       sequence={[
                                 
                                              'Frontend Developer',
@@ -57,7 +57,7 @@ const AboutDetails = ()=>{
                                         ]}
                                          wrapper="span"
                                          speed={50}
-                                        style={{ fontSize: '20px', color:'black', display: 'inline-block' }}
+                                        style={{ fontSize: '14px', fontWeight:"bold", display: 'inline-block' }}
                                         repeat={Infinity}
                                     /> 
                             </span>) </h2>
@@ -72,33 +72,33 @@ const AboutDetails = ()=>{
                         </div>
                         <div>
                              <ul className="flex gap-3 items-center flex-row lg:flex-row ">
-                                <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="" className=" bg-slate-950">
                                  <MdEmail className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-slate-500 hover:text-white"/> </Link> </li>
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="" className=" bg-slate-950">
                                  <FaLinkedin className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-slate-500 hover:text-white"/> </Link> </li>
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="" className=" bg-slate-950">
                                  <FaGithub className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-slate-500 hover:text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="" className=" bg-slate-950">
                                  <FaFacebook className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-slate-500 hover:text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-black duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="" className=" bg-slate-950">
                                  <FaYoutube className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
@@ -117,8 +117,8 @@ const AboutDetails = ()=>{
                                                <a
                                           href="/update_resume.pdf"
                                           download="Kamruzzaman_CV.pdf"  
-                                          className="inline-flex items-center gap-2  px-4 py-2 rounded-md shadow-md
-                                                     bg-yellow-600 text-white font-semibold transition-transform
+                                          className="inline-flex items-center gap-2  px-4 py-4 rounded-md shadow-md
+                                                     bg-cyan-600 text-white font-semibold transition-transform
                                                      transform hover:-translate-y-1 active:translate-y-0"
                                           aria-label="Download CV"
                                         >

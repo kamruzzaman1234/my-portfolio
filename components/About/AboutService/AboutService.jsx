@@ -24,65 +24,64 @@ const AboutService = ()=>{
                 </div> 
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3">
-                    <div className="border-r-8 border-black rounded-lg
-                     shadow-lg p-6 shadow-black flex flex-col gap-6 items-center">
-                        <div>
-                            <FaCode  className="text-7xl text-black"/>
+                    <div className="rounded-lg
+                      p-6 bg-black  transition-all shadow-lg shadow-black
+                         ease-in-out duration-300 delay-150 hover:bg-cyan-800  flex flex-col gap-6 items-center">
+                        <div className="p-5 border-4 border-cyan-500  rounded-full">
+                            <FaCode  className="text-5xl text-white"/>
                         </div>
                         <div>
                             <h3 className={`${cinzel_decorative.className} text-3xl
-                            font-semibold text-black mb-4`}>MERN stack</h3>
+                            font-semibold text-white mb-4`}>MERN stack</h3>
                             <ul className="space-y-3" >
                                 <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*Project Completed</li>
+                                text-sm text-white font-bold`}>*Project Completed</li>
                                 <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*Mobile responsivenes</li>
+                                text-sm text-white font-bold`}>*Mobile responsivenes</li>
                                 <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*E-commerce functionality</li>
+                                text-sm text-white font-bold`}>*E-commerce functionality</li>
                             </ul>
                         </div>
                     </div>
-                    <div className="border-r-8 border-black rounded-lg
-                     shadow-lg p-6 shadow-black flex flex-col gap-6 items-center">
-                        <div>
-                            <FaCode  className="text-7xl text-black"/>
+                    <div className="rounded-lg
+                      p-6 bg-black  transition-all shadow-lg shadow-black
+                         ease-in-out duration-300 delay-150 hover:bg-cyan-800  flex flex-col gap-6 items-center">
+                        <div className="p-5 border-4 border-cyan-500  rounded-full">
+                            <FaCode  className="text-5xl text-white"/>
                         </div>
                         <div>
                             <h3 className={`${cinzel_decorative.className} text-3xl
-                            font-semibold text-black mb-4`}>other services</h3>
+                            font-semibold text-white mb-4`}>MERN stack</h3>
                             <ul className="space-y-3" >
                                 <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*Project Completed</li>
+                                text-sm text-white font-bold`}>*Project Completed</li>
                                 <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*Mobile responsivenes</li>
+                                text-sm text-white font-bold`}>*Mobile responsivenes</li>
                                 <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*E-commerce functionality</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="border-r-8 border-black rounded-lg
-                     shadow-lg p-6 shadow-black flex flex-col gap-6 items-center">
-                        <div>
-                            <FaCode  className="text-7xl text-black"/>
-                        </div>
-                        <div>
-                            <h3 className={`${cinzel_decorative.className} text-3xl
-                            font-semibold text-black mb-4`}>Web design</h3>
-                            <ul className="space-y-3" >
-                                <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*Project Completed</li>
-                                <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*Mobile responsivenes</li>
-                                <li className={`${cinzel_decorative.className}
-                                text-sm text-black font-bold`}>*E-commerce functionality</li>
+                                text-sm text-white font-bold`}>*E-commerce functionality</li>
                             </ul>
                         </div>
                     </div>
 
-                   
-
-                    
+                    <div className="rounded-lg
+                      p-6 bg-black  transition-all shadow-lg shadow-black
+                         ease-in-out duration-300 delay-150 hover:bg-cyan-800  flex flex-col gap-6 items-center">
+                        <div className="p-5 border-4 border-cyan-500  rounded-full">
+                            <FaCode  className="text-5xl text-white"/>
+                        </div>
+                        <div>
+                            <h3 className={`${cinzel_decorative.className} text-3xl
+                            font-semibold text-white mb-4`}>MERN stack</h3>
+                            <ul className="space-y-3" >
+                                <li className={`${cinzel_decorative.className}
+                                text-sm text-white font-bold`}>*Project Completed</li>
+                                <li className={`${cinzel_decorative.className}
+                                text-sm text-white font-bold`}>*Mobile responsivenes</li>
+                                <li className={`${cinzel_decorative.className}
+                                text-sm text-white font-bold`}>*E-commerce functionality</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

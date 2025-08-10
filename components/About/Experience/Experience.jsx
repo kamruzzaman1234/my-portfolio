@@ -16,19 +16,19 @@ const Experience  =()=>{
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-center`}>My Experience</h2>    
                 </div> 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    <div className="space-y-3 shadow-lg p-6 shadow-gray-200">
+                    <div className="space-y-3 shadow-lg p-6 border-b-4 border-cyan-500">
                         <h4 className={`${cinzel_decorative.className} text-lg `}>2021 - 2022</h4>
-                        <h2 className={`${cinzel_decorative.className} text-2xl font-semibold`}>Website designer</h2>
+                        <h2 className={`${cinzel_decorative.className} text-2xl text-cyan-800 font-semibold`}>Website designer</h2>
                         <h4 className={`${cinzel_decorative.className} text-lg  `}>European It</h4>
                     </div>
-                    <div className="space-y-3 shadow-lg p-6 shadow-gray-200">
+                    <div className="space-y-3 shadow-lg p-6 border-b-4 border-cyan-500">
                         <h4 className={`${cinzel_decorative.className} text-lg `}>2022 - 2024</h4>
-                        <h2 className={`${cinzel_decorative.className} text-2xl font-semibold`}>MERN STACK</h2>
+                        <h2 className={`${cinzel_decorative.className} text-2xl text-cyan-800 font-semibold`}>MERN STACK</h2>
                         <h4 className={`${cinzel_decorative.className} text-lg  `}>Programming Hero</h4>
                     </div>
-                    <div className="space-y-3 shadow-lg p-6 shadow-gray-200">
+                    <div className="space-y-3 shadow-lg p-6 border-b-4 border-cyan-500">
                         <h4 className={`${cinzel_decorative.className} text-lg `}>2024 - 2025</h4>
-                        <h2 className={`${cinzel_decorative.className} text-2xl font-semibold`}>webflow Designer & Developer</h2>
+                        <h2 className={`${cinzel_decorative.className} text-2xl text-cyan-800 font-semibold`}>webflow Designer & Developer</h2>
                         <h4 className={`${cinzel_decorative.className} text-lg  `}>Softvence</h4>
                     </div>
                 </div>
