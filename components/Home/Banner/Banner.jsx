@@ -74,7 +74,7 @@ const Banner = ()=>{
                         <div className="max-w-4xl w-full mx-auto">
                             <div className="flex flex-col gap-8">
                                 <div className="h-[350px]">
-                                    <img src="https://i.ibb.co.com/9mMM7P3q/476174455-1327727398451650-7534668584162578566-n.jpg" 
+                                    <img src="https://i.ibb.co.com/3YmRVMzY/490531733-2037442036779050-2816608607527327536-n.jpg" 
                                      className="w-full h-full object-cover rounded-bl-3xl rounded-tr-3xl" alt="" />
                                 </div>
                                 <div className="flex items-center gap-2 flex-col">
