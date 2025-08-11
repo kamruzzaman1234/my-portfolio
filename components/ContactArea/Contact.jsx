@@ -21,10 +21,10 @@ const poppins = Poppins({
 const ContactArea = ()=>{
     return(
         <div className="">
-            <div className="max-w-5xl w-full mx-auto">
+            <div className="max-w-5xl px-10 lg:px-0 w-full mx-auto">
                 <div className="mb-10 flex flex-col gap-2 items-center">
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-white`}>Contact us</h2>  
-                    <p className={`${poppins.className} text-lg font-medium text-white`}>Any Question or remarks ? just write as a message</p>  
+                    <p className={`${poppins.className} text-lg font-medium text-center text-white`}>Any Question or remarks ? just write as a message</p>  
                 </div> 
                 <div className="py-10 px-6 bg-black shadow-lg rounded-lg shadow-slate-400">
                     <form action="" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -57,7 +57,7 @@ const ContactArea = ()=>{
                     </form>
                 </div>
                 <div className="pt-20">
-                    <div className="flex justify-between flex-col lg:flex-row items-center">
+                    <div className="flex justify-between flex-col gap-8 lg:flex-row items-center">
                         <div className="flex flex-col items-center">
                             <div className="p-6 border-2 border-white shadow-lg shadow-gray-100 bg-cyan-400 rounded-full">
                                 <MdManageAccounts className="text-5xl text-white"/>

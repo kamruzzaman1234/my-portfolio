@@ -30,7 +30,7 @@ const blogs = [
 const HelpPeople = ()=>{
     return(
         <div className="pt-32 ">
-            <div className="max-w-6xl w-full mx-auto">
+            <div className="max-w-6xl px-10 lg:px-0 w-full mx-auto">
                 <div className="mb-10">
                     <h2 className={`${cinzel_decorative.className} text-3xl font-semibold text-black`}>Social work</h2>    
                 </div> 
