@@ -48,7 +48,7 @@ const Navbar = ()=>{
 
                     <div className="max-w-3xl hidden lg:block w-full mx-auto relative lg:static">
                         <ul className="flex justify-between flex-col lg:flex-row">
-                            <li className=""><Link href="/" className={`${cinzel_decorative.className}
+                            <li className="/"><Link href="/" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>Home</Link></li>
                             <li><Link href="/about" className={`${cinzel_decorative.className}
                             text-white transition-all delay-70 duration-300 ease-in-out hover:text-lg font-semibold text-sm uppercase`}>About</Link></li>
