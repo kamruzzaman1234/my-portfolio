@@ -27,16 +27,16 @@ const ContactArea = ()=>{
                     <p className={`${poppins.className} text-lg font-medium text-center text-white`}>Any Question or remarks ? just write as a message</p>  
                 </div> 
                 <div className="py-10 px-6 bg-black shadow-lg rounded-lg shadow-slate-400">
-                    <form action="" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                        <div className="flex flex-col gap-4">
+                    <form action="" className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+                        <div className=" flex col-span-2 lg:col-span-1 flex-col gap-4">
                             <label htmlFor="name" className={`${cinzel_decorative.className} text-2xl
                              font-semibold text-white`}>Name</label>
                             <input type="text" name="name" placeholder="Enter Your Name" 
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg text-white
                              shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"/>
                         </div>
-                        <div className="flex flex-col gap-4">
-                            <label htmlFor="name" className={`${cinzel_decorative.className} text-2xl
+                        <div className="flex flex-col col-span-2 lg:col-span-1 gap-4">
+                            <label htmlFor="email" className={`${cinzel_decorative.className} text-2xl
                              font-semibold text-white`}>Email</label>
                             <input type="email" name="email" placeholder="Enter Your email" 
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg text-white

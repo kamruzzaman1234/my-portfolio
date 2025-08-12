@@ -30,40 +30,40 @@ const Banner = ()=>{
                     <div className="flex flex-col lg:flex-row gap-3 items-center justify-center">
                         <div className="max-w-1xl mb-6 w-full mx-auto">
                            <ul className="flex gap-3 items-center flex-row lg:flex-col justify-center">
-                                <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="/" className=" bg-slate-950">
                                  <FaHome className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="/about" className=" bg-slate-950">
                                  <IoManSharp className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="/skill" className=" bg-slate-950">
                                  <GiSkills className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="/project" className=" bg-slate-950">
                                  <LuProjector className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="/social" className=" bg-slate-950">
                                  <MdAssuredWorkload className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="/contact" className=" bg-slate-950">
                                  <SlSocialDropbox className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
@@ -103,8 +103,8 @@ const Banner = ()=>{
                                     <a
       href="/update_resume.pdf"
       download="Kamruzzaman_CV.pdf"  
-      className="inline-flex items-center gap-2 px-4 py-2 rounded-md shadow-md
-                 bg-yellow-600 text-white font-semibold transition-transform
+      className="inline-flex items-center gap-2 px-4 py-4 rounded-md shadow-md
+                 bg-cyan-600 text-white font-semibold transition-transform
                  transform hover:-translate-y-1 active:translate-y-0"
       aria-label="Download CV"
     >
@@ -116,33 +116,33 @@ const Banner = ()=>{
                         </div>
                         <div className="max-w-1xl w-full mx-auto bg-black">
                             <ul className="flex gap-3 items-center flex-row lg:flex-col justify-center">
-                                <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" className=" bg-slate-950">
                                  <MdEmail className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="https://www.linkedin.com/in/md-kamruzzaman-298786249/" className=" bg-slate-950">
                                  <FaLinkedin className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="https://github.com/kamruzzaman1234" className=" bg-slate-950">
                                  <FaGithub className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="https://www.facebook.com/md.kamruzzaman.313086" className=" bg-slate-950">
                                  <FaFacebook className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
                                  text-white"/> </Link> </li>
 
 
-                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-yellow-500 ease-in-out rounded-full hover:bg-slate-800"> 
+                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="https://www.youtube.com/" className=" bg-slate-950">
                                  <FaYoutube className="text-2xl
                                 transition-all delay-150 duration-300 ease-in-out hover:text-4xl
