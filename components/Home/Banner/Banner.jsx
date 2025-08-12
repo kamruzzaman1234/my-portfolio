@@ -71,7 +71,7 @@ const Banner = ()=>{
      
                         </ul>
                         </div>
-                        <div className="max-w-4xl w-full mx-auto">
+                        <div className="max-w-4xl mt-8 w-full mx-auto">
                             <div className="flex flex-col gap-8">
                                 <div className="h-[350px]">
                                     <img src="https://i.ibb.co.com/3YmRVMzY/490531733-2037442036779050-2816608607527327536-n.jpg" 
@@ -114,7 +114,7 @@ const Banner = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="max-w-1xl w-full mx-auto bg-black">
+                        <div className="max-w-1xl mt-6 w-full mx-auto bg-black">
                             <ul className="flex gap-3 items-center flex-row lg:flex-col justify-center">
                                 <li className="p-3 transition-all delay-150 shadow-lg shadow-white duration-300 border-1 border-cyan-500 ease-in-out rounded-full hover:bg-slate-800"> 
                                 <Link href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" className=" bg-slate-950">
