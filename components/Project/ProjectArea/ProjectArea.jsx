@@ -76,6 +76,32 @@ const ProjectArea = ()=>{
                         </div>
                     </div>
 
+                    <div className="px-6 py-8 flex flex-col gap-4 shadow-lg shadow-white">
+                        <div className="w-full">
+                            <img src="https://i.ibb.co.com/RGdfhTyh/Screenshot-37.png"
+                            className="w-full object-cover" alt="" />
+                        </div>
+                        <div className="space-y-4">
+                            <h3 className={`${cinzel_decorative.className}
+                            text-white text-2xl font-semibold`}>University Portal Management System</h3>
+                            <p className={`${poppins.className} text-sm text-white`}>Portal Management System – A responsive web application for managing users,
+                                roles, and content efficiently. Built with Next.js, Tailwind CSS, 
+                                Node.js, Express.js, and MongoDB, it features secure authentication and authorization using NextAuth, dynamic dashboards, profile management, and seamless user
+                                experiences across all devices.
+                                Technologies: Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, NextAuth
+</p>
+                            <div className="flex justify-between">
+                                <Link href="https://portal-management-system-frontend.vercel.app" className={`${cinzel_decorative.className}
+                                px-2 py-2 rounded-lg font-bold bg-white text-black 
+                                shadow-lg shadow-white`}>View project</Link>
+
+                                <Link href="https://github.com/kamruzzaman1234/portal-management-system-frontend" className={`${cinzel_decorative.className}
+                                px-2 py-2 rounded-lg font-bold bg-white text-black 
+                                shadow-lg shadow-white`}>GitHub</Link>
+                            </div>
+                        </div>
+                    </div>
+
                      <div className="px-6 py-8 flex flex-col gap-4 shadow-lg shadow-white">
                         <div className="w-full">
                             <img src="https://i.ibb.co.com/CsnvHbvf/ielts-course-banner-design-with-text-vector-45072734.jpg"
