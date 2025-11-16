@@ -4,6 +4,7 @@ import AboutDetails from "@/components/About/AboutDetails/AboutDetails";
 import AboutService from "@/components/About/AboutService/AboutService";
 import Education from "@/components/About/Education/Education";
 import Experience from "@/components/About/Experience/Experience";
+import LearnPath from "@/components/About/LearnPath/LearnPath";
 
 const { default: divider } = require("daisyui/components/divider");
 
@@ -13,6 +14,7 @@ const About = ()=>{
         <AboutDetails></AboutDetails>
         <AboutService></AboutService>
         <Education></Education>
+        <LearnPath></LearnPath>
         <Experience></Experience>
     </div>
 
