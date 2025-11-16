@@ -12,10 +12,11 @@ const About = ()=>{
     return(
     <div className="pt-32 pb-28">
         <AboutDetails></AboutDetails>
+         <Experience></Experience>
         <AboutService></AboutService>
         <Education></Education>
         <LearnPath></LearnPath>
-        <Experience></Experience>
+       
     </div>
 
     )

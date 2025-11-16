@@ -88,9 +88,9 @@ const Banner = ()=>{
                                               1000, 
                                              'MERN STACK Developer',
                                              1000,
-                                             'Youtuber',
+                                             'Technical Support Engineer',
                                              1000,
-                                            'Content Creator',
+                                            'Youtuber',
                                                1000
                                         ]}
                                          wrapper="span"
